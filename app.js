@@ -4,7 +4,6 @@ let mongoose = require("mongoose");
 let multer = require("multer");
 let cookieParser = require("cookie-parser");
 let postsRouter = require("./routes/posts");
-//let CallbackRequest = require("./models/callback-requests");
 let callbackRequestsRouter = require("./routes/callback-requests");
 let emailsRouter = require("./routes/emails");
 let usersRouter = require("./routes/users");

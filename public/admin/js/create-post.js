@@ -15,8 +15,7 @@ createForm.addEventListener("submit", function(e){
     data.append("country", createCountry.value);
     data.append("imageURL", createImageUrl.value);
     data.append("text", createText.value);
-   // data.append("description", text.substring(0,text.indexOf(".")+1));
-    data.append("description", text.substr(0,text.length));
+    data.append("description", text.substring(0, text.indexOf(".")+1));
     data.append("imageFile", createImageFile.files[0]);
 
 

@@ -15,9 +15,8 @@ document.addEventListener("DOMContentLoaded", async function(){
                     <a href="/sight?id=${post.id}" class="btn btn-primary">Details</a>
                 </div>
             </div>
-		</div>`;
+        </div>`;
         articles.insertAdjacentHTML("beforeend", postHTML);
-        
     })
 })
 

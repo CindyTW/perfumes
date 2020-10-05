@@ -37,8 +37,7 @@
             body: JSON.stringify({
                 title: titleInp.value,
                 text: textArea.value,
-               // description: textArea.value.substring(0, textArea.value.indexOf(".")+1)
-                description: textArea.value.substr(0,textArea.value.length)
+                description: textArea.value.substring(0, textArea.value.indexOf(".")+1)
             })
         }).then((resp)=>resp.text())
         .then(()=>window.history.go());

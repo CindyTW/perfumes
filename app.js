@@ -10,10 +10,8 @@ let usersRouter = require("./routes/users");
 let Post = require("./models/posts").Post;
 let auth = require("./controllers/auth");
 
-
 app.set("view engine", "ejs");
 
-// mongoose.connect("mongodb+srv://cindy:sHHzYzgpZr6cfuv@mycluster-s1bn0.mongodb.net/travels", { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.connect("mongodb+srv://cindy:aa123@cluster0.etmko.mongodb.net/perfumes", { useNewUrlParser: true, useUnifiedTopology: true });
 app.use(express.json());
 let imageStorage = multer.diskStorage({
@@ -41,7 +39,6 @@ app.get("/sight", async(req, resp)=>{
     })
 })
 
-
 app.get("/admin", (req,resp)=>{
     let token = req.cookies["auth_token"];
     if(token && auth.checkToken(token)){
@@ -58,4 +55,3 @@ app.get("/login",(req,resp)=>{
 
 let port = process.env.PORT || 3000;
 app.listen(port, ()=> console.log(`listening ${port}...`));
-

@@ -1,6 +1,15 @@
+body {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url(../images/background.jpg);
+} 
+
+nav {
+	font-weight: 700;
+}
+	
 .mt-20 {
 	margin-top: 20px;
 }
+
 footer {
 	height: 80px;
 	margin-top: 50px;

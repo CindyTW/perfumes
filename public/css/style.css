@@ -110,3 +110,9 @@ footer>.container, footer .row {
 #myTabContent{
 	margin-top: 20px;
 }
+
+h1 {
+	background-image:linear-gradient(rgba(185, 185, 185, 0.4), rgba(255, 255, 255, 0.4), rgba(255, 255, 255,0.4), rgba(185, 185, 185, 0.4));
+	background-size: cover;
+	padding: 15px;
+}

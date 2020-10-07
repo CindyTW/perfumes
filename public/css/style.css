@@ -113,6 +113,14 @@ footer>.container, footer .row {
 	padding: 15px;
 }
 
+.contact-us{
+	background-image:linear-gradient(rgba(160, 160, 160, 0.2),rgba(160, 160, 160, 0.2));
+	background-size: cover;
+	border-radius: 20px;
+	width: 400px;
+	padding: 15px;
+}
+
 #myTabContent{
 	margin-top: 20px;
 }

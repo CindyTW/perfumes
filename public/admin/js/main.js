@@ -75,9 +75,7 @@ async function addEmails() {
                 <div class="text w100">${request.text}</div>
             </article>`;
             requestsBlock.insertAdjacentHTML("beforeend", requestHTML);
-            
         })
-    
 }
 
 logOutBtn.addEventListener("click", function() {

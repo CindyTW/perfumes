@@ -82,18 +82,3 @@ logOutBtn.addEventListener("click", function() {
     document.cookie.split(";").forEach(function(c) { document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); });
     window.location.href = "/";
 })
-
-async function addContacts() {
-    let contacts = await addContacts();
-        let contactsBlock = document.querySelector(".contact-us-form");
-        contactsBlock.innerHTML = "";
-        contacts.forEach((contact)=>{
-            let contactHTML =`
-            <article class="d-flex justify-content-between align-items-center article-inline">
-                <div class="name w30">${contact.name}</div>
-                <div class="email w30">${contact.email}</div>
-                <div class="text w100">${contact.text}</div>
-            </article>`;
-            requestsBlock.insertAdjacentHTML("beforeend", contactHTML);
-        })
-}

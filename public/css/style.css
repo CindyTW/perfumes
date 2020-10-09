@@ -5,7 +5,7 @@ body {
 nav {
 	font-weight: 700;
 }
-	
+
 .mt-20 {
 	margin-top: 20px;
 }
@@ -115,13 +115,23 @@ footer>.container, footer .row {
 
 .contact-us-form{
 	background-image:linear-gradient(rgba(160, 160, 160, 0.2),rgba(160, 160, 160, 0.2));
+	/* background-image: linear-gradient(rgba(170, 170, 170, 0.5),rgba(170,170,170,0.5)), url("../images/background-1.jpg"); */
 	background-size: cover;
 	border-radius: 20px;
 	width: 400px;
-	padding: 15px;
+	padding: 20px;
+	margin-top: 5px;
 }
 
 #myTabContent{
 	margin-top: 20px;
 }
 
+h1 {
+	padding: 20px;
+	text-align: center;
+}
+
+.about-us {
+	margin-top: 5px;
+}

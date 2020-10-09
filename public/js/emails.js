@@ -14,5 +14,3 @@ emailRequestForm.addEventListener("submit", function(e){
         })
     }).then((resp)=>resp.text()).then((data)=>console.log(data));
 })
-
-

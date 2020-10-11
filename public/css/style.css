@@ -12,10 +12,12 @@ nav {
 
 footer {
 	height: 80px;
-	margin-top: 50px;
+	margin: 100px auto 0px;
 }
+
 footer>.container, footer .row {
-	height: 100%;
+	height: 80px;
+	margin: 80px auto 0px;
 }
 
 .page-wrapper{
@@ -120,7 +122,8 @@ footer>.container, footer .row {
 	border-radius: 20px;
 	width: 400px;
 	padding: 20px;
-	margin-top: 5px;
+	/* margin-top: 5px; */
+	margin: 10px auto;
 }
 
 #myTabContent{

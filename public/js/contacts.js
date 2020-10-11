@@ -12,5 +12,5 @@ contactUsForm.addEventListener("submit", function(e){
             email: document.querySelector("#email").value,  
             text: document.querySelector("#message").value
         })
-    }).then((resp)=>resp.text()).then((data)=>console.log(data));
+    }).then((resp)=>resp.text()).then(data=>alert("Your message has been sent!"));
 })

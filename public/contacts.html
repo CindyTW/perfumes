@@ -40,7 +40,7 @@
 		</nav>
 	</header>
     <main>
-        <div class="container page-wrapper">
+        <div class="container page-wrapper mt-4">
             <h1>Contact Us</h1>
 			<hr>
 			<div class="row">
@@ -64,6 +64,47 @@
 				</div>
 			</div>
 	</main>
+
+	<!-- Modal -->
+	<div class="modal" tabindex="-1" role="dialog" id="myModal">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title">Contact Us</h5>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<div class="modal-body">
+			  <form class="email-request-form">
+				  <div class="form-group">
+					  <label for="name">Your name</label>
+					  <input type="text" class="form-control" id="name" placeholder="Name">
+				  </div>
+				  <div class="form-group">
+					  <label for="email">Email</label>
+					  <input type="text" class="form-control" id="email" placeholder="Email">
+				  </div>
+				  <div class="form-group">
+					  <label for="message">Message</label>
+					  <textarea class="form-control" id="message" rows="3"></textarea>
+				  </div>
+				  <input type="submit" class="btn btn-primary" data-toggle="modal"  data-target="#myModal" >
+			  </form>
+			</div>
+		  </div>
+		</div>
+	  </div>
+  
+  
+	  <footer class="bg-light">
+		<div class="container">
+				<div class="d-flex align-items-center justify-content-center py-4">
+					<p class="copy">©2020, Created By Cindy Lin</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

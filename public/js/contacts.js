@@ -2,7 +2,7 @@ let contactUsForm= document.querySelector(".contact-us-form");
 
 contactUsForm.addEventListener("submit", function(e){
     e.preventDefault();
-    fetch("/contacts", {
+    fetch("/emails", {
         method: "POST",
         headers:{
             "Content-Type": "application/json"

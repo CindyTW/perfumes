@@ -10,14 +10,25 @@ nav {
 	margin-top: 20px;
 }
 
-footer {
-	height: 80px;
-	margin: 100px auto 0px;
+footer>.container, footer .row {
+	height: 70px;
+	margin: 80px auto 0px;
 }
 
-footer>.container, footer .row {
-	height: 80px;
-	margin: 80px auto 0px;
+
+.about-us-footer {
+	height: 70px;
+	margin: -70px auto 0px;
+}
+
+.contact-footer {
+	height: 70px;
+	margin: 90px auto 0px;
+}
+
+.admin-footer {
+	height: 70px;
+	margin: 160px auto 0px; 
 }
 
 .page-wrapper{

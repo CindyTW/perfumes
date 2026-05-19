@@ -11,5 +11,8 @@
       "src": "/(.*)",
       "dest": "app.js"
     }
-  ]
+  ],
+  "env": {
+    "MONGODB_URI": "mongodb+srv://cindy:aa123@cluster0.etmko.mongodb.net/perfumes"
+  }
 }
